@@ -15,4 +15,4 @@ Si descargaste el repositorio usa el comando `git branch` para ver los nombres d
 ```
 Ver el producto final funcionando
 ===
-Gracias a la magia de rawgit.com puedes ver el ejemplo terminado accediendo a [https://rawgit.com/UnJavaScripter/angularfire-demo/3-Binding_de_datos/index.html](https://rawgit.com/UnJavaScripter/angularfire-demo/3-Binding_de_datos/index.html)
+Gracias a la magia de [rawgit.com](https://rawgit.com/) puedes ver el ejemplo terminado accediendo a [https://rawgit.com/UnJavaScripter/angularfire-demo/3-Binding_de_datos/index.html](https://rawgit.com/UnJavaScripter/angularfire-demo/3-Binding_de_datos/index.html)
