@@ -7,8 +7,35 @@
 <body ng-app="chat-con-angular-fire">
 	
 	<div ng-controller="controlador_Principal as principal">
-
 		
+		<!-- Nombre del remitente -->
+		<label for="miNombre">Enviar mensaje identificado como: </label>
+		<input type="text" id="miNombre" ng-model="principal.miNombre">
+
+
+
+		<!-- Lista de mensajes -->
+		<ul ng-repeat="mensaje in principal.mensajes">
+			<li>
+				<div>
+					{{mensaje.remitente}}: {{mensaje.texto}}
+				</div>
+			</li>
+		</ul>
+
+		<hr>
+		
+
+
+		<!-- Formulario de envío -->
+		<form ng-submit="principal.enviar()">
+			<label for="mensajeNuevo">Nuevo mensaje: </label>
+			<input type="text" id="mensajeNuevo" ng-model="principal.mensajeNuevo">
+			<button>Enviar</button>
+		</form>
+
+
+
 
 	</div>
 
